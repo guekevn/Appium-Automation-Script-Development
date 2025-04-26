@@ -1,0 +1,34 @@
+2025-04-26 02:00:01.600662 [INFO] Starting application with configuration: device=0C73C18I221016C7, platform=Android
+2025-04-26 02:00:01.636261 [INFO] Created screenshot directory for category: Fruits & veggies
+2025-04-26 02:00:01.645841 [INFO] Created screenshot directory for category: Meat & Poulyty
+2025-04-26 02:00:01.653404 [INFO] Created screenshot directory for category: Water
+2025-04-26 02:00:01.662537 [INFO] Created screenshot directory for category: Bakery
+2025-04-26 02:00:01.671353 [INFO] Created screenshot directory for category: Cheese & Deli
+2025-04-26 02:00:01.679765 [INFO] Created screenshot directory for category: Breakfast
+2025-04-26 02:00:01.688093 [INFO] Created screenshot directory for category: Cooking Essentials
+2025-04-26 02:00:01.698046 [INFO] Created screenshot directory for category: Frozen products
+2025-04-26 02:00:01.706123 [INFO] Created screenshot directory for category: Food basics
+2025-04-26 02:00:01.713997 [INFO] Created screenshot directory for category: Snacks
+2025-04-26 02:00:01.721618 [INFO] Created screenshot directory for category: Beverages
+2025-04-26 02:00:01.729680 [INFO] Created screenshot directory for category: Milk & Diary
+2025-04-26 02:00:01.738392 [INFO] Created screenshot directory for category: Home Care & Laundry
+2025-04-26 02:00:01.746743 [INFO] Created screenshot directory for category: Pet care
+2025-04-26 02:00:01.758001 [INFO] Created screenshot directory for category: Electronics
+2025-04-26 02:00:01.769484 [INFO] Created screenshot directory for category: Baby care
+2025-04-26 02:00:01.777371 [INFO] Created screenshot directory for category: Personal care
+2025-04-26 02:00:01.785835 [INFO] Created screenshot directory for category: Beauty care
+2025-04-26 02:00:05.358120 [INFO] Application opened successfully
+2025-04-26 02:00:10.438870 [INFO] Current Activity: .ui.activities.authentication.AuthActivity
+2025-04-26 02:00:10.986666 [INFO] Screenshot saved as general/initial_screen_20250426_020010.png
+2025-04-26 02:00:10.998135 [INFO] Entering Guest Mode
+2025-04-26 02:00:12.870406 [INFO] Current Activity: .ui.activities.authentication.AuthActivity
+2025-04-26 02:00:13.372356 [INFO] Screenshot saved as general/before_guest_mode_20250426_020012.png
+2025-04-26 02:00:18.899425 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-26 02:00:19.680916 [INFO] Screenshot saved as general/after_guest_mode_20250426_020018.png
+2025-04-26 02:00:19.687249 [INFO] Successfully entered Guest Mode
+2025-04-26 02:00:37.295476 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-26 02:00:37.931688 [INFO] Screenshot saved as general/after_cancel_button_20250426_020037.png
+2025-04-26 02:00:37.938114 [INFO] Successfully entered Home Page
+2025-04-26 02:00:37.943954 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 02:00:38.100974 [INFO] Looking for category: Fruits & veggies
+2025-04-26 02:00:38.117826 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView

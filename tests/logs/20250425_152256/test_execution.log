@@ -1,0 +1,53 @@
+2025-04-25 15:22:56.691304 [INFO] Starting application with configuration: device=0C73C18I221016C7, platform=Android
+2025-04-25 15:22:56.705127 [INFO] Created screenshot directory for category: Fruits & veggies
+2025-04-25 15:22:56.712078 [INFO] Created screenshot directory for category: Meat & Poulyty
+2025-04-25 15:22:56.721201 [INFO] Created screenshot directory for category: Water
+2025-04-25 15:22:56.732666 [INFO] Created screenshot directory for category: Bakery
+2025-04-25 15:22:56.739899 [INFO] Created screenshot directory for category: Cheese & Deli
+2025-04-25 15:22:56.747851 [INFO] Created screenshot directory for category: Breakfast
+2025-04-25 15:22:56.755799 [INFO] Created screenshot directory for category: Cooking Essentials
+2025-04-25 15:22:56.763572 [INFO] Created screenshot directory for category: Frozen products
+2025-04-25 15:22:56.772083 [INFO] Created screenshot directory for category: Food basics
+2025-04-25 15:22:56.779941 [INFO] Created screenshot directory for category: Snacks
+2025-04-25 15:22:56.788790 [INFO] Created screenshot directory for category: Beverages
+2025-04-25 15:22:56.797724 [INFO] Created screenshot directory for category: Milk & Diary
+2025-04-25 15:22:56.805072 [INFO] Created screenshot directory for category: Home Care & Laundry
+2025-04-25 15:22:56.813787 [INFO] Created screenshot directory for category: Pet care
+2025-04-25 15:22:56.822602 [INFO] Created screenshot directory for category: Electronics
+2025-04-25 15:22:56.830665 [INFO] Created screenshot directory for category: Baby care
+2025-04-25 15:22:56.838082 [INFO] Created screenshot directory for category: Personal care
+2025-04-25 15:22:56.846798 [INFO] Created screenshot directory for category: Beauty care
+2025-04-25 15:23:01.237466 [INFO] Application opened successfully
+2025-04-25 15:23:06.356292 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:07.652182 [INFO] Screenshot saved as general/main_screen_20250425_152306.png
+2025-04-25 15:23:07.670808 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-25 15:23:07.705871 [INFO] Navigating to category: Fruits & veggies using locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-25 15:23:07.723179 [INFO] Scrolling to find text: Fruits & veggies
+2025-04-25 15:23:19.875616 [INFO] Performing scroll down action...
+2025-04-25 15:23:23.414419 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:24.669983 [INFO] Screenshot saved as general/after_scroll_20250425_152323.png
+2025-04-25 15:23:25.041371 [INFO] Performing scroll down action...
+2025-04-25 15:23:28.549494 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:29.488908 [INFO] Screenshot saved as general/after_scroll_20250425_152328.png
+2025-04-25 15:23:30.022488 [INFO] Performing scroll down action...
+2025-04-25 15:23:33.580118 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:34.485023 [INFO] Screenshot saved as general/after_scroll_20250425_152333.png
+2025-04-25 15:23:34.941528 [INFO] Performing scroll down action...
+2025-04-25 15:23:38.451666 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:39.236869 [INFO] Screenshot saved as general/after_scroll_20250425_152338.png
+2025-04-25 15:23:39.670622 [INFO] Performing scroll down action...
+2025-04-25 15:23:43.157390 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:43.941058 [INFO] Screenshot saved as general/after_scroll_20250425_152343.png
+2025-04-25 15:23:44.238365 [INFO] Performing scroll down action...
+2025-04-25 15:23:47.772092 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:48.557898 [INFO] Screenshot saved as general/after_scroll_20250425_152347.png
+2025-04-25 15:23:48.886157 [INFO] Performing scroll down action...
+2025-04-25 15:23:52.391457 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:53.179794 [INFO] Screenshot saved as general/after_scroll_20250425_152352.png
+2025-04-25 15:23:53.497318 [INFO] Performing scroll down action...
+2025-04-25 15:23:57.019271 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:23:57.811319 [INFO] Screenshot saved as general/after_scroll_20250425_152357.png
+2025-04-25 15:23:58.146588 [INFO] Performing scroll down action...
+2025-04-25 15:24:01.620632 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:24:02.411329 [INFO] Screenshot saved as general/after_scroll_20250425_152401.png
+2025-04-25 15:24:02.716071 [INFO] Performing scroll down action...

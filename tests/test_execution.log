@@ -1,0 +1,176 @@
+2025-04-26 02:44:14.852487 [INFO] Entering Guest Mode
+2025-04-26 02:44:22.581721 [INFO] Successfully entered Guest Mode
+2025-04-26 02:45:06.240423 [INFO] Entering Guest Mode
+2025-04-26 02:45:14.654576 [INFO] Successfully entered Guest Mode
+2025-04-26 02:45:33.410848 [INFO] Successfully entered Home Page
+2025-04-26 02:48:12.303617 [INFO] Entering Guest Mode
+2025-04-26 02:48:21.346397 [INFO] Successfully entered Guest Mode
+2025-04-26 02:48:39.934978 [INFO] Successfully entered Home Page
+2025-04-26 02:48:39.952247 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 02:48:39.980288 [INFO] Looking for category: Fruits & veggies
+2025-04-26 02:48:39.992620 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 02:50:17.292493 [INFO] Entering Guest Mode
+2025-04-26 02:50:25.934286 [INFO] Successfully entered Guest Mode
+2025-04-26 02:50:44.750218 [INFO] Successfully entered Home Page
+2025-04-26 02:50:44.759266 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 02:50:44.783552 [INFO] Looking for category: Fruits & veggies
+2025-04-26 02:50:44.793797 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 02:50:59.875318 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 02:51:21.591735 [INFO] Entering Guest Mode
+2025-04-26 02:51:30.240969 [INFO] Successfully entered Guest Mode
+2025-04-26 02:51:48.796153 [INFO] Successfully entered Home Page
+2025-04-26 02:51:48.807902 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 02:51:48.833790 [INFO] Looking for category: Fruits & veggies
+2025-04-26 02:51:48.848511 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 02:52:11.575596 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 03:44:55.914949 [INFO] Entering Guest Mode
+2025-04-26 03:45:05.492962 [INFO] Successfully entered Guest Mode
+2025-04-26 03:45:24.247173 [INFO] Successfully entered Home Page
+2025-04-26 03:45:24.263757 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 03:45:24.304441 [INFO] Looking for category: Fruits & veggies
+2025-04-26 03:45:24.320172 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 03:46:41.774379 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 03:46:41.786179 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 03:48:04.360397 [INFO] Entering Guest Mode
+2025-04-26 03:48:12.676130 [INFO] Successfully entered Guest Mode
+2025-04-26 03:48:31.246477 [INFO] Successfully entered Home Page
+2025-04-26 03:48:31.253788 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 03:48:31.265108 [INFO] Looking for category: Fruits & veggies
+2025-04-26 03:48:31.272170 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 03:48:51.579195 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 03:48:51.608825 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 03:49:04.803792 [INFO] Product list page loaded for Fruits & veggies.
+2025-04-26 03:49:18.663452 [INFO] Scrolling down page 1 for Fruits & veggies
+2025-04-26 03:51:27.689457 [INFO] Entering Guest Mode
+2025-04-26 03:51:36.442236 [INFO] Successfully entered Guest Mode
+2025-04-26 03:51:55.134021 [INFO] Successfully entered Home Page
+2025-04-26 03:51:55.145908 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 03:51:55.160700 [INFO] Looking for category: Fruits & veggies
+2025-04-26 03:51:55.167471 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 03:53:12.331324 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 03:53:12.340750 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 03:53:24.994375 [INFO] Product list page loaded for Fruits & veggies.
+2025-04-26 03:53:38.909679 [INFO] Scrolling down page 1 for Fruits & veggies
+2025-04-26 03:54:44.800647 [INFO] Entering Guest Mode
+2025-04-26 03:54:55.471094 [INFO] Successfully entered Guest Mode
+2025-04-26 03:55:14.195407 [INFO] Successfully entered Home Page
+2025-04-26 03:55:14.210980 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 03:55:14.227473 [INFO] Looking for category: Fruits & veggies
+2025-04-26 03:55:14.239187 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 03:55:36.139465 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 03:55:36.153196 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 03:55:49.049682 [INFO] Product list page loaded for Fruits & veggies.
+2025-04-26 03:56:03.788378 [INFO] Scrolling down page 1 for Fruits & veggies
+2025-04-26 04:14:43.554211 [INFO] Entering Guest Mode
+2025-04-26 04:14:52.008991 [INFO] Successfully entered Guest Mode
+2025-04-26 04:15:11.307319 [INFO] Successfully entered Home Page
+2025-04-26 04:15:11.324468 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 04:15:11.336569 [INFO] Looking for category: Fruits & veggies
+2025-04-26 04:15:11.347734 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 04:15:35.967415 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 04:15:35.978390 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 04:15:48.622286 [INFO] Product list page loaded for Fruits & veggies.
+2025-04-26 04:16:03.857635 [INFO] Scrolling down page 1 for Fruits & veggies
+2025-04-26 04:16:09.128635 [INFO] Scrolling down page 2 for Fruits & veggies
+2025-04-26 04:16:14.085202 [INFO] Scrolling down page 3 for Fruits & veggies
+2025-04-26 04:16:19.171040 [INFO] Scrolling down page 4 for Fruits & veggies
+2025-04-26 04:16:24.234026 [INFO] Scrolling down page 5 for Fruits & veggies
+2025-04-26 04:16:29.178185 [INFO] Finished exploring products for category: Fruits & veggies. Total pages captured: 6
+2025-04-26 10:48:56.357706 [INFO] Entering Guest Mode
+2025-04-26 10:49:05.065614 [INFO] Successfully entered Guest Mode
+2025-04-26 10:49:23.709169 [INFO] Successfully entered Home Page
+2025-04-26 10:49:23.724952 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 10:49:23.744878 [INFO] Looking for category: Fruits & veggies
+2025-04-26 10:49:23.760426 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 10:49:56.762006 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 10:56:42.183096 [INFO] Entering Guest Mode
+2025-04-26 10:56:50.781615 [INFO] Successfully entered Guest Mode
+2025-04-26 10:57:08.830034 [INFO] Successfully entered Home Page
+2025-04-26 10:57:08.840581 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 10:57:08.870434 [INFO] Looking for category: Fruits & veggies
+2025-04-26 10:57:08.890460 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 10:57:40.523061 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 10:57:40.535569 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 11:03:51.313210 [INFO] Entering Guest Mode
+2025-04-26 11:04:00.143704 [INFO] Successfully entered Guest Mode
+2025-04-26 11:04:18.902376 [INFO] Successfully entered Home Page
+2025-04-26 11:04:18.923251 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 11:04:18.947286 [INFO] Looking for category: Fruits & veggies
+2025-04-26 11:04:18.962112 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 11:04:51.267723 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 11:04:51.286647 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 11:07:36.839705 [INFO] Entering Guest Mode
+2025-04-26 11:07:45.491462 [INFO] Successfully entered Guest Mode
+2025-04-26 11:08:03.749724 [INFO] Successfully entered Home Page
+2025-04-26 11:08:03.762968 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 11:08:03.789937 [INFO] Looking for category: Fruits & veggies
+2025-04-26 11:08:03.802439 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 11:08:26.918333 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 11:08:26.937781 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 11:08:39.919598 [INFO] Product list page loaded for Fruits & veggies.
+2025-04-26 11:08:54.601307 [INFO] Scrolling down page 1 for Fruits & veggies
+2025-04-26 11:15:24.559706 [INFO] Entering Guest Mode
+2025-04-26 11:16:45.210226 [INFO] Entering Guest Mode
+2025-04-26 11:16:52.917354 [INFO] Successfully entered Guest Mode
+2025-04-26 11:17:46.034684 [INFO] Entering Guest Mode
+2025-04-26 11:17:56.356293 [INFO] Successfully entered Guest Mode
+2025-04-26 11:18:15.003953 [INFO] Successfully entered Home Page
+2025-04-26 11:18:15.013154 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-26 11:18:15.036714 [INFO] Looking for category: Fruits & veggies
+2025-04-26 11:18:15.047088 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 11:18:48.611100 [INFO] Successfully navigated to Fruits & veggies
+2025-04-26 11:18:48.628798 [INFO] Starting exploration for category: Fruits & veggies
+2025-04-26 11:19:01.852586 [INFO] Product list page loaded for Fruits & veggies.
+2025-04-26 11:19:19.718071 [INFO] Scrolling down page 1 for Fruits & veggies
+2025-04-26 11:19:24.724608 [INFO] Scrolling down page 2 for Fruits & veggies
+2025-04-26 11:19:29.628397 [INFO] Scrolling down page 3 for Fruits & veggies
+2025-04-26 11:19:34.610864 [INFO] Scrolling down page 4 for Fruits & veggies
+2025-04-26 11:19:39.620093 [INFO] Scrolling down page 5 for Fruits & veggies
+2025-04-26 11:19:44.532228 [INFO] Finished exploring products for category: Fruits & veggies. Total pages captured: 6
+2025-04-26 11:19:44.580935 [INFO] Returning to home page
+2025-04-26 11:19:45.798448 [INFO] App Back/Home button not found, using system Back keycode.
+2025-04-26 11:19:49.127322 [INFO] === Completed exploration of category: Fruits & veggies ===
+2025-04-26 11:19:51.137858 [INFO] === Starting exploration of category: Meat & Poulyty ===
+2025-04-26 11:19:51.145410 [INFO] Looking for category: Meat & Poulyty
+2025-04-26 11:24:45.461788 [INFO] Entering Guest Mode
+2025-04-26 11:24:54.072317 [INFO] Successfully entered Guest Mode
+2025-04-26 11:25:12.219530 [INFO] Successfully entered Home Page
+2025-04-26 11:25:12.227556 [INFO] === Starting exploration of category: Fruits & Veggies ===
+2025-04-26 11:26:23.958664 [INFO] Entering Guest Mode
+2025-04-26 11:27:39.346710 [INFO] Entering Guest Mode
+2025-04-26 11:27:47.883471 [INFO] Successfully entered Guest Mode
+2025-04-26 11:28:06.243805 [INFO] Successfully entered Home Page
+2025-04-26 11:28:06.252116 [INFO] === Starting exploration of category: Fruits & Veggies ===
+2025-04-26 11:28:06.276297 [INFO] Looking for category: Fruits & Veggies
+2025-04-26 11:28:06.292946 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 11:33:35.072723 [INFO] Entering Guest Mode
+2025-04-26 11:33:42.801723 [INFO] Successfully entered Guest Mode
+2025-04-26 11:36:03.940143 [INFO] Entering Guest Mode
+2025-04-26 11:36:46.720165 [INFO] Entering Guest Mode
+2025-04-26 11:36:54.334148 [INFO] Successfully entered Guest Mode
+2025-04-26 11:38:41.283954 [INFO] Entering Guest Mode
+2025-04-26 11:40:22.788089 [INFO] Entering Guest Mode
+2025-04-26 11:40:31.331328 [INFO] Successfully entered Guest Mode
+2025-04-26 11:40:51.095954 [INFO] Successfully entered Home Page
+2025-04-26 11:40:51.104810 [INFO] === Starting exploration of category: Fruits & Veggies ===
+2025-04-26 11:40:51.121605 [INFO] Looking for category: Fruits & Veggies
+2025-04-26 11:40:51.137921 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 11:41:25.445908 [INFO] Successfully navigated to Fruits & Veggies
+2025-04-26 11:41:25.456188 [INFO] Starting exploration for category: Fruits & Veggies
+2025-04-26 11:41:37.659769 [INFO] Product list page loaded for Fruits & Veggies.
+2025-04-26 11:41:51.418163 [INFO] Scrolling down page 1 for Fruits & Veggies
+2025-04-26 11:41:56.628416 [INFO] Scrolling down page 2 for Fruits & Veggies
+2025-04-26 11:44:54.887412 [INFO] Entering Guest Mode
+2025-04-26 11:45:02.713044 [INFO] Successfully entered Guest Mode
+2025-04-26 11:51:22.763378 [INFO] Entering Guest Mode
+2025-04-26 11:51:30.426671 [INFO] Successfully entered Guest Mode
+2025-04-26 11:52:27.753556 [INFO] Entering Guest Mode
+2025-04-26 11:52:36.335548 [INFO] Successfully entered Guest Mode
+2025-04-26 11:52:55.370037 [INFO] Successfully entered Home Page
+2025-04-26 11:52:55.381734 [INFO] === Starting exploration of category: Fruits & Veggies ===
+2025-04-26 11:52:55.402388 [INFO] Looking for category: Fruits & Veggies
+2025-04-26 11:52:55.410202 [INFO] Using specific locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-26 11:53:29.159859 [INFO] Successfully navigated to Fruits & Veggies
+2025-04-26 11:53:29.169424 [INFO] Starting exploration for category: Fruits & Veggies
+2025-04-26 11:53:42.595218 [INFO] Product list page loaded for Fruits & Veggies.
+2025-04-26 11:53:59.944552 [INFO] Scrolling down page 1 for Fruits & Veggies

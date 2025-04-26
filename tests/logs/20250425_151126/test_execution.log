@@ -1,0 +1,33 @@
+2025-04-25 15:11:26.196459 [INFO] Starting application with configuration: device=0C73C18I221016C7, platform=Android
+2025-04-25 15:11:26.258728 [INFO] Created screenshot directory for category: Fruits & veggies
+2025-04-25 15:11:26.277870 [INFO] Created screenshot directory for category: Meat & Poulyty
+2025-04-25 15:11:26.292126 [INFO] Created screenshot directory for category: Water
+2025-04-25 15:11:26.307999 [INFO] Created screenshot directory for category: Bakery
+2025-04-25 15:11:26.325308 [INFO] Created screenshot directory for category: Cheese & Deli
+2025-04-25 15:11:26.341409 [INFO] Created screenshot directory for category: Breakfast
+2025-04-25 15:11:26.365340 [INFO] Created screenshot directory for category: Cooking Essentials
+2025-04-25 15:11:26.377848 [INFO] Created screenshot directory for category: Frozen products
+2025-04-25 15:11:26.394478 [INFO] Created screenshot directory for category: Food basics
+2025-04-25 15:11:26.409711 [INFO] Created screenshot directory for category: Snacks
+2025-04-25 15:11:26.426245 [INFO] Created screenshot directory for category: Beverages
+2025-04-25 15:11:26.447906 [INFO] Created screenshot directory for category: Milk & Diary
+2025-04-25 15:11:26.459328 [INFO] Created screenshot directory for category: Home Care & Laundry
+2025-04-25 15:11:26.475397 [INFO] Created screenshot directory for category: Pet care
+2025-04-25 15:11:26.490340 [INFO] Created screenshot directory for category: Electronics
+2025-04-25 15:11:26.503804 [INFO] Created screenshot directory for category: Baby care
+2025-04-25 15:11:26.521725 [INFO] Created screenshot directory for category: Personal care
+2025-04-25 15:11:26.538978 [INFO] Created screenshot directory for category: Beauty care
+2025-04-25 15:11:30.951143 [INFO] Application opened successfully
+2025-04-25 15:11:31.049982 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:11:32.403039 [INFO] Screenshot saved as general/main_screen_20250425_151131.png
+2025-04-25 15:11:32.408847 [INFO] === Starting exploration of category: Fruits & veggies ===
+2025-04-25 15:11:32.422632 [INFO] Navigating to category: Fruits & veggies using locator: //android.widget.GridView[@resource-id="com.todoorstep.store:id/rvBanners"]/android.view.ViewGroup[1]/android.widget.ImageView
+2025-04-25 15:11:34.869748 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:11:35.864598 [INFO] Screenshot saved as fruits_veggies/before_click_20250425_151134.png
+2025-04-25 15:11:48.631283 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:11:49.157168 [INFO] Screenshot saved as fruits_veggies/after_click_20250425_151148.png
+2025-04-25 15:11:49.174510 [INFO] Successfully navigated to Fruits & veggies
+2025-04-25 15:11:49.184492 [INFO] Exploring category: Fruits & veggies
+2025-04-25 15:11:49.278586 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:11:49.763271 [INFO] Screenshot saved as fruits_veggies/begin_explore_20250425_151149.png
+2025-04-25 15:11:49.773271 [INFO] Performing scroll 1/5 in Fruits & veggies

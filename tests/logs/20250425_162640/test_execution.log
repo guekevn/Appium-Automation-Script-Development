@@ -1,0 +1,28 @@
+2025-04-25 16:26:40.283946 [INFO] Starting application with configuration: device=0C73C18I221016C7, platform=Android
+2025-04-25 16:26:40.303352 [INFO] Created screenshot directory for category: Fruits & veggies
+2025-04-25 16:26:40.335025 [INFO] Created screenshot directory for category: Meat & Poulyty
+2025-04-25 16:26:40.344054 [INFO] Created screenshot directory for category: Water
+2025-04-25 16:26:40.351866 [INFO] Created screenshot directory for category: Bakery
+2025-04-25 16:26:40.359157 [INFO] Created screenshot directory for category: Cheese & Deli
+2025-04-25 16:26:40.369172 [INFO] Created screenshot directory for category: Breakfast
+2025-04-25 16:26:40.377900 [INFO] Created screenshot directory for category: Cooking Essentials
+2025-04-25 16:26:40.386009 [INFO] Created screenshot directory for category: Frozen products
+2025-04-25 16:26:40.393129 [INFO] Created screenshot directory for category: Food basics
+2025-04-25 16:26:40.402373 [INFO] Created screenshot directory for category: Snacks
+2025-04-25 16:26:40.409572 [INFO] Created screenshot directory for category: Beverages
+2025-04-25 16:26:40.416764 [INFO] Created screenshot directory for category: Milk & Diary
+2025-04-25 16:26:40.425756 [INFO] Created screenshot directory for category: Home Care & Laundry
+2025-04-25 16:26:40.433948 [INFO] Created screenshot directory for category: Pet care
+2025-04-25 16:26:40.442541 [INFO] Created screenshot directory for category: Electronics
+2025-04-25 16:26:40.449499 [INFO] Created screenshot directory for category: Baby care
+2025-04-25 16:26:40.459372 [INFO] Created screenshot directory for category: Personal care
+2025-04-25 16:26:40.469216 [INFO] Created screenshot directory for category: Beauty care
+2025-04-25 16:26:45.295570 [INFO] Application opened successfully
+2025-04-25 16:26:50.461044 [INFO] Current Activity: .ui.activities.authentication.AuthActivity
+2025-04-25 16:26:51.073566 [INFO] Screenshot saved as general/initial_screen_20250425_162650.png
+2025-04-25 16:26:51.082030 [INFO] Entering Guest Mode
+2025-04-25 16:26:52.806646 [INFO] Current Activity: .ui.activities.authentication.AuthActivity
+2025-04-25 16:26:53.301706 [INFO] Screenshot saved as general/before_guest_mode_20250425_162652.png
+2025-04-25 16:26:58.731522 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 16:26:58.771590 [INFO] Successfully entered Guest Mode
+2025-04-25 16:26:58.795926 [INFO] === Starting exploration of category: Fruits & veggies ===

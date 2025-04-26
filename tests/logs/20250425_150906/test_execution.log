@@ -1,0 +1,23 @@
+2025-04-25 15:09:06.140200 [INFO] Starting application with configuration: device=0C73C18I221016C7, platform=Android
+2025-04-25 15:09:06.188850 [INFO] Created screenshot directory for category: Fruits & veggies
+2025-04-25 15:09:06.198272 [INFO] Created screenshot directory for category: Meat & Poulyty
+2025-04-25 15:09:06.220070 [INFO] Created screenshot directory for category: Water
+2025-04-25 15:09:06.230931 [INFO] Created screenshot directory for category: Bakery
+2025-04-25 15:09:06.246179 [INFO] Created screenshot directory for category: Cheese & Deli
+2025-04-25 15:09:06.268821 [INFO] Created screenshot directory for category: Breakfast
+2025-04-25 15:09:06.280374 [INFO] Created screenshot directory for category: Cooking Essentials
+2025-04-25 15:09:06.297371 [INFO] Created screenshot directory for category: Frozen products
+2025-04-25 15:09:06.369959 [INFO] Created screenshot directory for category: Food basics
+2025-04-25 15:09:06.461581 [INFO] Created screenshot directory for category: Snacks
+2025-04-25 15:09:06.484075 [INFO] Created screenshot directory for category: Beverages
+2025-04-25 15:09:06.525634 [INFO] Created screenshot directory for category: Milk & Diary
+2025-04-25 15:09:06.589865 [INFO] Created screenshot directory for category: Home Care & Laundry
+2025-04-25 15:09:06.657210 [INFO] Created screenshot directory for category: Pet care
+2025-04-25 15:09:06.688879 [INFO] Created screenshot directory for category: Electronics
+2025-04-25 15:09:06.712533 [INFO] Created screenshot directory for category: Baby care
+2025-04-25 15:09:06.726212 [INFO] Created screenshot directory for category: Personal care
+2025-04-25 15:09:06.735469 [INFO] Created screenshot directory for category: Beauty care
+2025-04-25 15:09:12.509327 [INFO] Application opened successfully
+2025-04-25 15:09:12.696158 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 15:09:14.039144 [INFO] Screenshot saved as general/main_screen_20250425_150912.png
+2025-04-25 15:09:14.050995 [INFO] === Starting exploration of category: Fruits & veggies ===

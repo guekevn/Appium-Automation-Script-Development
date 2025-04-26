@@ -1,0 +1,9 @@
+2025-04-25 14:17:22.029351 [INFO] Starting application with configuration: device=0C73C18I221016C7, platform=Android
+2025-04-25 14:17:28.111359 [INFO] Application opened successfully
+2025-04-25 14:17:28.190509 [INFO] Current Activity: .ui.activities.authentication.AuthActivity
+2025-04-25 14:17:28.766481 [INFO] Screenshot saved as screen_before_actions_20250425_141728.png
+2025-04-25 14:17:28.775317 [INFO] Waiting for element: //android.widget.ScrollView/android.view.View[2]/android.view.View[3]
+2025-04-25 14:17:30.402377 [INFO] Clicking element: //android.widget.ScrollView/android.view.View[2]/android.view.View[3]
+2025-04-25 14:17:33.200936 [INFO] Current Activity: .ui.activities.home.MainActivity
+2025-04-25 14:17:33.919042 [INFO] Screenshot saved as after_click_20250425_141733.png
+2025-04-25 14:17:33.930617 [INFO] Performing scroll down action...
