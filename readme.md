@@ -1,125 +1,100 @@
-# Robot Framework Appium Automation for [Your App Name / com.todoorstep.store]
+# Mobile App Automation Project with Appium and Robot Framework
 
-This repository contains automated mobile tests for the `[com.todoorstep.store]` Android application, built using Robot Framework and Appium.
+This project contains automation scripts for testing the [Your App Name or General App Description] mobile application using Appium and Robot Framework. The scripts are designed to explore product categories, sub-categories, and product pages, including handling tabs within product pages.
 
-## Overview
+## Key Features
 
-The primary goal of this project is to automate the testing of key user flows within the application, focusing on exploring product categories and lists as a guest user. It utilizes Appium for mobile interaction and Robot Framework for test case structure, execution, and reporting.
-
-## Features Tested
-
-*   **Guest Mode Entry:** Verifies the ability to enter the application without logging in.
-*   **Category Exploration:**
-    *   Navigates to the home screen displaying product categories.
-    *   Iterates through a predefined list of categories.
-    *   Scrolls down the home screen to find and click on each specific category.
-*   **Product List Exploration:**
-    *   After entering a category, waits for the product list page to load.
-    *   Scrolls down the product list page incrementally.
-    *   Captures screenshots of each visible portion of the product list during scrolling.
-    *   Detects the end of the product list using page source comparison or specific end-of-list elements.
-*   **Navigation:** Handles returning to the home screen after exploring a category.
-*   **Reporting:** Generates detailed HTML logs and reports, including embedded screenshots for visual verification.
-
-## Technology Stack
-
-*   **Test Framework:** Robot Framework
-*   **Mobile Automation:** Appium (v2.x recommended)
-*   **Appium Driver:** UIAutomator2 (for Android)
-*   **Core Library:** AppiumLibrary (Robot Framework)
-*   **Language:** Python (for Robot Framework execution)
-*   **Dependencies:** Appium-Python-Client (installed via `requirements.txt`)
+*   Navigation through parent and child categories.
+*   Scrolling products under each category/sub-category.
+*   Handling of sub-tabs on product list pages.
+*   Utilizes Appium for interaction with mobile UI elements.
+*   Modular project structure with separation of locators, keywords, and test cases.
+*   Logging and screenshot capturing for debugging.
+*   Tracking mechanism for processed categories (optional, if `processed_children_tracker.txt` is committed).
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed and configured on your system:
+Before running these scripts, ensure you have the following installed and configured:
 
-1.  **Python:** Version 3.8 or higher recommended.
-2.  **pip:** Python package installer.
-3.  **Node.js and npm:** Required for installing Appium.
-4.  **Appium Server:** Install globally: `npm install -g appium`
-5.  **Appium UIAutomator2 Driver:** Install via Appium: `appium driver install uiautomator2`
-6.  **Java Development Kit (JDK):** Required by the Android SDK tools. Version 8, 11, or 17 are commonly used.
-7.  **Android SDK:** Set up Android SDK with platform-tools (adb) and build-tools. Ensure `ANDROID_HOME` environment variable is set and `adb` is in your system's PATH.
-8.  **Android Device/Emulator:** An active Android emulator or a physical device with USB Debugging enabled and recognized by `adb devices`.
+*   **Node.js and npm**: Required for Appium.
+*   **Appium Server**: `npm install -g appium` (or Appium Desktop).
+*   **Appium Doctor**: To verify your Appium installation: `npm install -g appium-doctor`.
+*   **Java Development Kit (JDK)**: Required for the Android SDK.
+*   **Android SDK**: With Android Debug Bridge (ADB) and a configured Android emulator/device.
+*   **Python**: Version 3.x recommended.
+*   **Robot Framework**: `pip install robotframework`
+*   **AppiumLibrary for Robot Framework**: `pip install robotframework-appiumlibrary`
+*   **Git**: For cloning the repository.
+*   **UIAutomator2 Driver**: Appium usually installs this during the first session, or you can set it up manually.
 
-## Setup
+Ensure environment variables like `ANDROID_HOME` and `JAVA_HOME` are set correctly.
 
-1.  **Clone the repository:**
+## Project Setup
+
+1.  **Clone the Repository**:
     ```bash
-    git clone [Your Repository URL]
-    cd [Repository Folder Name] # e.g., cd Appium-Automation-Script-Development
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+    cd YOUR_REPOSITORY_NAME
     ```
-2.  **Create and activate a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    # On Windows:
-    .\venv\Scripts\activate
-    # On macOS/Linux:
-    source venv/bin/activate
-    ```
-3.  **Install dependencies:**
+
+2.  **Install Python Dependencies (if a `requirements.txt` file is present)**:
+    (You can create a `requirements.txt` file with `pip freeze > requirements.txt`)
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: Make sure your `requirements.txt` file includes at least `robotframework` and `robotframework-appiumlibrary`)*
 
-## Configuration
+3.  **Configure Application and Device Details**:
+    Edit the `resources/variables/config.resource` file to set:
+    *   `APPIUM_SERVER`: Your Appium server URL (default: `http://127.0.0.1:4723`).
+    *   `PLATFORM_NAME`: E.g., `Android`.
+    *   `DEVICE_NAME`: Your emulator's name or physical device's UDID.
+    *   `APP_PACKAGE`: The package name of the application under test.
+    *   `APP_ACTIVITY`: The main launchable activity of the application under test.
+    *   Other variables like category lists if they need adjustment.
 
-Before running the tests, you need to configure the environment and application details in the `variables/config.robot` file:
+## Project Structure
+├── resources/
+│ ├── keywords/ # Custom keyword files
+│ ├── locators/ # UI element locator files
+│ └── variables/ # Configuration variable files
+├── test_suites/
+│ └── test.robot # Main test case file(s)
+├── .gitignore # Files ignored by Git
+└── README.md # This file
 
-1.  **Appium Server:** Ensure `${APPIUM_SERVER}` points to your running Appium instance (default is usually correct).
-2.  **Device Details:**
-    *   Set `${PLATFORM_NAME}` to `Android`.
-    *   Update `${DEVICE_NAME}` with the UDID of your physical device or the name of your emulator (as shown by `adb devices`).
-3.  **Application Details:**
-    *   Update `${APP_PACKAGE}` to the correct package name of the application under test (e.g., `com.todoorstep.store`).
-    *   Update `${APP_ACTIVITY}` to the main launchable activity (often `.MainActivity` or similar). Consult the app developer or use tools like `adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp'` if unsure.
-    *   **IMPORTANT:** If the test needs to install the app, uncomment and set the `${APP_PATH}` variable to the *absolute path* of the `.apk` file on your machine. If the app is already installed, ensure `noReset=${true}` is set (or remove `${APP_PATH}`).
-4.  **Categories:** Verify the list in `@{CATEGORIES}` and the mapping in `&{CATEGORY_FILENAME_MAP}` match the application exactly (including spelling and case).
 
 ## Running the Tests
 
-1.  **Start the Appium Server:** Open a terminal window and run:
+1.  **Ensure the Appium Server is running.** You can start it from the terminal:
     ```bash
     appium
     ```
-    Wait until it indicates it's listening (e.g., on port 4723).
-2.  **Ensure Device/Emulator is Ready:** Make sure your target Android device or emulator is running, unlocked, and recognized by `adb devices`.
-3.  **Run Robot Framework:** Open *another* terminal window, navigate to the project's root directory (`Appium-Automation-Script-Development`), activate your virtual environment (if using one), and run the tests:
+    Or run Appium Desktop.
+
+2.  **Ensure an Android emulator is running or a physical device is connected** and recognized by ADB (`adb devices`).
+
+3.  **Execute the Robot Framework tests** from the project's root directory:
     ```bash
-    robot -d results tests/test.robot
+    robot test_suites/test.robot
     ```
-    *   `-d results`: This flag directs Robot Framework to put all output files (log.html, report.html, output.xml, and the `screenshots` folder) into the `results` directory.
+    Alternatively, to run tests with a specific tag:
+    ```bash
+    robot -i Smoke test_suites/test.robot
+    ```
 
-## Project Structure
-Appium-Automation-Script-Development/
-├── locators/ # .robot files defining UI element locators
-│ ├── common_locators.robot
-│ └── product_locators.robot
-├── logs/ # Currently unused by the script output (might hold Appium server logs)
-├── resources/ # Reusable keywords organized by feature/page
-│ ├── common.robot
-│ ├── guest_mode_actions.robot
-│ ├── home_page_actions.robot
-│ ├── product_list_actions.robot
-│ └── logs.robot
-├── results/ # Test execution output (logs, reports, screenshots) - Created by robot -d results
-├── tests/ # Test suite files (.robot) containing test cases
-│ └── test.robot
-├── variables/ # Configuration variables (Appium capabilities, timeouts, data)
-│ └── config.robot
-├── readme.md # This file
-└── requirements.txt # Python dependencies
-## Viewing Results
+## Viewing Test Results
 
-After the test execution finishes:
+After execution, result files will be generated in the project root (or in `output_dir` if configured):
+*   `output.xml`: Detailed XML output.
+*   `log.html`: Interactive HTML log, very useful for debugging.
+*   `report.html`: Summary test report.
 
-1.  Navigate to the `results/` directory (created by the `robot -d results ...` command).
-2.  Open `report.html` in your web browser for a high-level summary of test results.
-3.  Open `log.html` for a detailed, step-by-step execution log, including logs generated by the script and embedded screenshots.
-4.  Screenshots captured during the test run are organized into subfolders within `results/screenshots/`.
+Screenshots (if enabled and errors occur or for activity logging) will be saved in a `screenshots` subdirectory within your reports directory (e.g., `reports/screenshots/`).
 
----
+## Contributing
 
-Remember to replace placeholders and adjust paths/commands based on your specific setup!
+If you'd like to contribute, please fork the repository and create a pull request.
+
+## License
+
+(Optional: Add license information if applicable, e.g., MIT, Apache 2.0, etc.)
