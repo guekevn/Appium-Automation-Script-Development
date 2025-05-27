@@ -1,0 +1,35 @@
+# Robot Framework output files
+output.xml
+log.html
+report.html
+*.png  # If screenshots are in the root output, or adjust the path
+screenshots/ # If you have a dedicated screenshots folder in your output
+geckodriver.log
+iedriver.log
+
+# Python virtual environment
+venv/
+*.pyc
+__pycache__/
+.env
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Appium Desktop logs (if present in the project)
+appium-desktop.log
+
+# Tracker file (if you don't want this committed, but it's often useful for continuation)
+# If you want to ignore it, uncomment the line below:
+# processed_children_tracker.txt
+
+# Output directory if you want to ignore the whole thing (be careful if it contains important files)
+# output_dir/
+# reports/ # If your reports folder only contains generated output and screenshots
